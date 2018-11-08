@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-header {
+    height: 3.5rem;
+    background-color: rgb(255, 187, 0);
+    padding: 0 1.5rem;
+}
+
+.main-header__nav {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    padding: 1rem;
+}
+
+.main-header__item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-header__item {
+    margin: 0 1.5rem;
+    padding: 0;
+}
+
+.main-header__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+    color: rgb(28, 172, 255)
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.product__item {
+    width: 15rem;
+    padding: 2rem;
+    border: 1px solid lightblue;
+}
+
+.card__header {
+   padding: .3rem;
+    border-bottom: 1px solid lightblue;
+}
+
+.product__title {
+    width: 50%;
+    margin: auto;
+}
+
+.card__image {
+    width: 50%;
+    margin: auto;
+}
+
+.card__content {
+    padding: 1rem;
+    border: 1px solid lightblue;
+}
+
+
+
+.product__description {
+    padding: .3rem;
+    border: 1px solid lightblue;
+}
+
+.card__actions {
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 1rem;
+}
+
+.grid {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}

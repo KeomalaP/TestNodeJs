@@ -1,0 +1,30 @@
+{
+  "name": "testnodejs",
+  "version": "1.0.0",
+  "description": "Node js udemy course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeomalaP/TestNodeJs.git"
+  },
+  "author": "Jp Keomala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeomalaP/TestNodeJs/issues"
+  },
+  "homepage": "https://github.com/KeomalaP/TestNodeJs#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
+  }
+}
